@@ -1,0 +1,9 @@
+dependencies:
+  post:
+    - bin/spec/appraisal install
+test:
+#  pre:
+#    - bin/spec/appraisal rake db:create
+#    - bin/spec/appraisal rake db:migrate
+  override:
+    - bin/spec/appraisal rvm 2.0,2.1,2.2,2.3,2.4 do rake

@@ -30,8 +30,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency 'activesupport'
-  
-  spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'aruba'
-  spec.add_development_dependency 'rake'
+
 end

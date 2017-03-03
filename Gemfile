@@ -5,3 +5,5 @@ gem 'rspec'
 gem 'aruba'
 gem 'rake'
 
+gem 'appraisal'
+
